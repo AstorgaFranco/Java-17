@@ -1,0 +1,7 @@
+create table PERSONA (
+	ID int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+	NOMBRE varchar(30),
+	APELLIDO varchar(30) NULL,
+	EDAD int NULL
+
+);
